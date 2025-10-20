@@ -225,10 +225,17 @@ footer a {
   header div {
     text-align: left;
     display: inline-block;
+    width: 85%;
+  }
+  header p {
+    display: inline-block;
   }
   header nav {
     display: inline-block;
     text-align: right;
+  }
+  article {
+    text-align: center;
   }
   iframe {
     width: 45%;
@@ -249,5 +256,14 @@ footer a {
     display: inline-block;
     width: 33%;
     margin-left: 1px;
+  }
+}
+
+@media print {
+  iframe,
+  div,
+  header,
+  footer {
+    display: none;
   }
 }
