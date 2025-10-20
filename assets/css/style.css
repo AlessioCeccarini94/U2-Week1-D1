@@ -234,21 +234,30 @@ footer a {
     display: inline-block;
     text-align: right;
   }
-  article {
-    text-align: center;
-  }
+
   iframe {
     width: 45%;
     display: inline-block;
-    height: 30em;
+    height: 20em;
+    margin-left: 5em;
   }
   section {
     width: 40%;
     display: inline-block;
     margin-left: 4em;
+    position: absolute;
+    text-align: center;
   }
   section h2 {
     background-color: darkgray;
+  }
+  section p {
+    margin-bottom: 1.2em;
+    padding-bottom: 4em;
+    font-size: 1.5em;
+  }
+  section input {
+    width: 80%;
   }
   aside div {
     display: inline-block;
