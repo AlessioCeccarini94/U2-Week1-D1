@@ -263,7 +263,10 @@ footer a {
   iframe,
   div,
   header,
-  footer {
+  footer,
+  form,
+  section,
+  aside {
     display: none;
   }
 }
